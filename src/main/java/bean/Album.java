@@ -1,6 +1,7 @@
 package bean;
+import java.io.Serializable;
 
-public class Album {
+public class Album implements Serializable {
 
     private int id;
     private String artist;
