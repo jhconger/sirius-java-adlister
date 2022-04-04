@@ -10,8 +10,9 @@
 <html>
 <head>
     <jsp:include page="/partials/head.jsp">
-        <jsp:param name="title" value="Viewing All The Ads" />
+        <jsp:param name="title" value="Viewing All The dao.Ads" />
     </jsp:include>
+    <title>dao.Ads Index</title>
 </head>
 <body>
 <jsp:include page="/partials/navbar.jsp" />
